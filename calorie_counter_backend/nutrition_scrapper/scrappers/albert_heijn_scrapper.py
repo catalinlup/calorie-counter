@@ -64,5 +64,4 @@ def get_albert_heijn_product_nutri_data(product_id: str) -> dict:
     return extract_nutri_table_from_html(make_request(create_full_url(product_id)))
 
 
-print(get_albert_heijn_product_nutri_data('wi123864'))
 
